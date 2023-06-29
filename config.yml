@@ -14,8 +14,8 @@ LANGUAGE: en # Specify the language code (check 'lang' folder for valid codes)
 INSTRUCTIONS: assist # Specify the instruction prompt to use (check 'instruction' folder for valid prompts)
 # To add custom prompts, create a .txt file like 'custom.txt' and set INSTRUCTIONS as 'custom'
 
-Discord: https://discord.gg/3V5TcfsE8C
-Github: https://github.com/mishalhossin/Discord-AI-Chatbot
+Discord: none
+Github: none
 
 TRIGGER:
   - chatbot
@@ -26,10 +26,7 @@ TRIGGER:
 # Define the triggers that the bot should always respond to when in message
 
 PRESENCES:
-  - Coded by Mishal#1916
-  - How can I assist you?
-  - Currently in {guild_count} guilds
-  - Support server at https://discord.gg/3V5TcfsE8C
+  - How can I assist you today?
 # List of different presences to be used
 
 OCR_MODEL_URLS:
